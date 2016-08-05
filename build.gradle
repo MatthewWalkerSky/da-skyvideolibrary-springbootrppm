@@ -19,14 +19,7 @@ jar {
 
 springBoot {
 	executable = true
-	embeddedLaunchScriptProperties = [
-			mode: 'service',
-			app_name: 'SpringBootRPM'
-	]
 }
-
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
 
 repositories {
 	mavenCentral()
@@ -37,6 +30,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
+
 
 
 
