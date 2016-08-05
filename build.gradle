@@ -11,10 +11,6 @@ buildscript {
 	}
 }
 
-plugins {
-	id 'nebula.rpm' version '3.4.0'
-}
-
 apply plugin: 'spring-boot'
 
 jar {
